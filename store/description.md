@@ -51,7 +51,7 @@ WordScooper brings the same idea to every web page.
 - Chrome: open chrome://extensions/shortcuts
 - Firefox: open about:addons, click the gear icon, then "Manage Extension Shortcuts"
 
-**Privacy:** WordScooper only runs on a page when you press its shortcut. It can't read your pages otherwise, stores nothing and sends nothing anywhere. It asks for no "read and change all your data on all websites" permission.
+**Privacy:** WordScooper only runs on a page when you press its shortcut. It can't read your pages otherwise, stores nothing and sends nothing anywhere.
 
 **Limitations:** it doesn't work on the browser's own pages or the add-on stores, or inside embedded frames from other websites.
 
