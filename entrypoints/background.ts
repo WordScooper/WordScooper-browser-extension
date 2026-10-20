@@ -10,7 +10,7 @@ export default defineBackground(() => {
         files: ['/extend-selection.js'],
       });
     } catch {
-      // Restricted pages (chrome://, about:, web stores) — nothing we can do.
+      // Restricted pages (chrome://, about:, web stores) - nothing we can do.
     }
   });
 });

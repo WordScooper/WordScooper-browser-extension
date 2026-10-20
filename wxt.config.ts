@@ -2,10 +2,10 @@ import { defineConfig } from 'wxt';
 
 export default defineConfig({
   manifest: ({ browser }) => ({
-    name: 'WordScooper: Extend selection keyboard shortcut',
+    name: 'WordScooper: Extend selection with keyboard',
     short_name: 'WordScooper',
     description:
-      'Select a word, then the sentence, then the paragraph — with one keyboard shortcut. No more fiddly mouse dragging.',
+      'Select a word, then the sentence, then the paragraph - with one keyboard shortcut. No more fiddly mouse dragging.',
     permissions: ['activeTab', 'scripting'],
     commands: {
       'extend-selection': {

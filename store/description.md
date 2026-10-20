@@ -4,7 +4,7 @@ Text to paste into the store listings. Keep this in sync with README.md.
 
 **Name:** WordScooper: Extend selection keyboard shortcut
 
-**Summary (manifest description):** Select a word, then the sentence, then the paragraph — with one keyboard shortcut. No more fiddly mouse dragging.
+**Summary (manifest description):** Select a word, then the sentence, then the paragraph - with one keyboard shortcut. No more fiddly mouse dragging.
 
 ## Description
 
