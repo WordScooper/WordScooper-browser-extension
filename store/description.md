@@ -4,7 +4,7 @@ Text to paste into the store listings. Keep this in sync with README.md.
 
 **Name:** WordScooper: Extend selection keyboard shortcut
 
-**Summary (manifest description):** Select a word, then the sentence, then the paragraph - with one keyboard shortcut. No more fiddly mouse dragging.
+**Summary (manifest description):** Select a word, then the sentence, then the paragraph - with one keyboard shortcut: Alt+Shift+Period, or ⌘⇧Space
 
 ## Description
 
@@ -31,19 +31,7 @@ In a text field:
 4. Press Alt+Shift+. again. "It tastes sweet." is selected.
 5. Press Alt+Shift+. once more. All of the text in the search box is selected.
 
-Nothing happens? Make sure the browser window is active and you aren't on a browser page such as the new-tab page or the add-on store. There, browsers don't allow extensions to run. If another program uses the same shortcut, pick a different one (see "Change the shortcut" below).
-
-Programmers will know this from their editors:
-
-- PyCharm, IntelliJ IDEA and other JetBrains IDEs: "Extend Selection"
-- NetBeans: "Select Next Element" (Alt+Shift+.), which is where WordScooper's default shortcut comes from
-- Visual Studio Code and Visual Studio: "Expand Selection"
-- Eclipse: "Select Enclosing Element"
-- Sublime Text: "Expand Selection to Scope"
-- Emacs: the expand-region package
-- Microsoft Word: press F8 repeatedly
-
-WordScooper brings the same idea to every web page.
+Nothing happens? Make sure the browser window is active, and you aren't on a browser page such as the new-tab page or the add-on store. There, browsers don't allow extensions to run. If another program uses the same shortcut, pick a different one (see "Change the shortcut" below).
 
 **Languages:** word and sentence boundaries come from the browser's built-in language rules, so German, French, Spanish and many other languages work, not just English.
 

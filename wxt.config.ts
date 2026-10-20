@@ -5,7 +5,7 @@ export default defineConfig({
     name: 'WordScooper: Extend selection with keyboard',
     short_name: 'WordScooper',
     description:
-      'Select a word, then the sentence, then the paragraph - with one keyboard shortcut. No more fiddly mouse dragging.',
+      'Select a word, then the sentence, then the paragraph - with one keyboard shortcut: Alt+Shift+Period, or ⌘⇧Space',
     permissions: ['activeTab', 'scripting'],
     commands: {
       'extend-selection': {
