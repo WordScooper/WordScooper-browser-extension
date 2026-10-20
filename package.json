@@ -1,0 +1,29 @@
+{
+  "name": "wordscooper",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Browser extension: extend the selection word → sentence → paragraph with one keyboard shortcut",
+  "author": "Gogowitsch <christian@blaeul.de> (https://github.com/Gogowitsch)",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WordScooper/WordScooper-browser-extension.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "test": "vitest run",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5",
+    "wxt": "^0.21.4"
+  }
+}
