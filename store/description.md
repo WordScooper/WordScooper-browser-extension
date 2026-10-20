@@ -33,8 +33,6 @@ In a text field:
 
 Nothing happens? Make sure the browser window is active, and you aren't on a browser page such as the new-tab page or the add-on store. There, browsers don't allow extensions to run. If another program uses the same shortcut, pick a different one (see "Change the shortcut" below).
 
-**Languages:** word and sentence boundaries come from the browser's built-in language rules, so German, French, Spanish and many other languages work, not just English.
-
 **Change the shortcut:** choose a combination that doesn't type a character. On a Mac, make sure to include command or control in your combination.
 - Chrome: open chrome://extensions/shortcuts
 - Firefox: open about:addons, click the gear icon, then "Manage Extension Shortcuts"
